@@ -153,7 +153,7 @@ const ChatBotApp = ({
           ></i>
           <i
             className="bx bx-x-circle close-list"
-            onClick={() => setShowChatList()}
+            onClick={() => setShowChatList(false)}
           ></i>
         </div>
         {chats.map((chat) => (
